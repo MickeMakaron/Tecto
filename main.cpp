@@ -46,7 +46,7 @@
 int main()
 {
     unsigned int sizeX, sizeY;
-    sizeX = sizeY = 5000;
+    sizeX = sizeY = 500;
 
     sf::RenderWindow window(sf::VideoMode(sizeX, sizeY), "VODKA", sf::Style::Default);
     const float YEARS_PER_TICK = 10.f;
